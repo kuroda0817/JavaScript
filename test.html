@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num = [10,20,30];
+        const fruit={a:2,b:3,c:4}
+        console.log(Object.entries(fruit)[0])
+        for (let i in fruit){
+            console.log(i,fruit[i])
+            console.log(num)
+        }
+        function test(x,y){
+            return x+y
+        }
+        console.log(test(num,num))
+        console.log(num)
+        //for (let i in fruit){
+        //    console.log(i)
+        //    console.log(fruit[i])
+        //}
+        const fruit2=[3,4,5]
+        for (let j in fruit2){
+            console.log(j)
+            //console.log(fruit2[i])
+        }
+        console.log(num)
+    </script>
+    
+</body>
+</html>
